@@ -34,7 +34,7 @@ function App() {
     return <p>Shit hit the fan</p>;
   }
 
-  if (loading || !todos ) {
+  if (loading || !todos && !todo) {
     return <p>Loading...</p>;
   }
 
